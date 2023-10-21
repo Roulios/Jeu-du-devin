@@ -1,0 +1,112 @@
+V "GNAT Lib v12"
+M P W=b
+A -gnatwa
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U jeu_devin_exo1%b	jeu_devin_exo1.adb	cfff5757 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.discrete_random%s
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W alea%s		alea.adb		alea.ali
+W system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20230508121439 76789da1 ada%s
+D a-except.ads		20230508121439 2a7d8d70 ada.exceptions%s
+D a-inteio.ads		20230508121439 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230508121439 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20230508121439 84bea7a3 ada.numerics%s
+D a-nudira.ads		20230508121439 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20230508121439 0bfd6ec4 ada.numerics.discrete_random%b
+D a-stream.ads		20230508121439 119b8fb3 ada.streams%s
+D a-string.ads		20230508121439 90ac6797 ada.strings%s
+D a-sttebu.ads		20230508121439 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20230508121439 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20230508121439 9eaa38c6 ada.tags%s
+D a-textio.ads		20230508121439 deada98a ada.text_io%s
+D a-tiinio.ads		20230508121439 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20230508121439 0e9b276f ada.unchecked_conversion%s
+D alea.ads		20231009085401 9fe1c6b1 alea%s
+D alea.adb		20231009085401 ca5296b2 alea%b
+D interfac.ads		20230508121439 edec285f interfaces%s
+D i-cstrea.ads		20230508121439 e53d8b8e interfaces.c_streams%s
+D jeu_devin_exo1.adb	20231009085939 87e7d0da jeu_devin_exo1%b
+D system.ads		20230508121439 a2da961d system%s
+D s-casuti.ads		20230508121439 cf13d755 system.case_util%s
+D s-crtl.ads		20230508121439 8a0692f8 system.crtl%s
+D s-exctab.ads		20230508121439 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230508121439 dc5161d4 system.file_control_block%s
+D s-imageu.ads		20230508121439 525c30c6 system.image_u%s
+D s-imguns.ads		20230508121439 0e4da2ac system.img_uns%s
+D s-parame.ads		20230508121439 d494a4a6 system.parameters%s
+D s-putima.ads		20230508121439 4e095881 system.put_images%s
+D s-rannum.ads		20230508121439 95815eca system.random_numbers%s
+D s-rannum.adb		20230508121439 0f2dcb9a system.random_numbers%b
+D s-ransee.ads		20230508121439 01a57b33 system.random_seed%s
+D s-secsta.ads		20230508121439 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20230508121439 df77073e system.soft_links%s
+D s-stache.ads		20230508121439 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230508121439 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230508121439 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20230508121439 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230508121439 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230508121439 fa2a7f59 system.unsigned_types%s
+D s-valuns.ads		20230508121439 e8a1f424 system.val_uns%s
+D s-valuti.ads		20230508121439 4d0d41f3 system.val_util%s
+D s-valueu.ads		20230508121439 eb2f4477 system.value_u%s
+D s-wchcon.ads		20230508121439 d9032363 system.wch_con%s
+D text_io.ads		20230508121439 21b2c898 text_io%s
+D unchconv.ads		20230508121439 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [jeu_devin_exo1 standard 8 11 none]
+G r i none [jeu_devin_exo1 standard 8 11 none] [alea standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|2r6 2r32
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 20|2w10 2r36
+X 7 a-nudira.adb
+53V16 Random[30|86]{integer} 31|402b13[17|7[20|14]]
+65V16 Random[30|86]{integer} 31|402b13[17|7[20|14]]
+X 13 a-textio.ads
+263U14*New_Line 20|53s17
+464U14*Put 20|35s33 37s33 39s33 54s17
+X 14 a-tiinio.ads
+59U14*Get 20|55s17[3|18]
+X 16 alea.ads
+5k9*Alea 13e9 20|3w6 14r41
+11U19 Get_Random_Number 20|18s17[14]
+X 18 interfac.ads
+79M9*Unsigned_32
+82M9*Unsigned_64
+X 20 jeu_devin_exo1.adb
+8U11*Jeu_Devin_Exo1 8b11 60l5 60t19
+10V18 choix_nombre_aleatoire{integer} 10b18 11r25 11r66 20l13 20t35 27s42
+. 50s29
+14K25 Mon_Alea[16|5] 15r21
+16i17 Nombre_Aleatoire{integer} 18m35 19r24
+23U19 Tester_choix_nombre_aleatoire 23b19 29l13 29t42
+25i17 test_nombre_aleatoire{integer} 27m17 28r31 28r64
+32U19 comparer_nombre 32b19 32>35 32>60 41l21 41t36 56s17
+32i35 nombre_ordi{integer} 34r41 36r44
+32i60 nombre_hum{integer} 34r28 36r31
+45i9 nombre_essais{integer} 52m17 52r34
+46i9 nombre_humain{integer} 55m21 56r51 57r38
+47i9 nombre_aleatoire{integer} 50m9 56r33 57r19
+X 30 s-rannum.ads
+77V13*Random{18|79M9} 31|224i21
+78V13*Random{18|82M9} 31|224i21
+X 45 text_io.ads
+24K9*Text_IO=24:29 20|1w6 1r29
+

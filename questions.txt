@@ -1,0 +1,50 @@
+--------------------------------------------------------------------------------
+C1. Que se passe-t-il si dans Jeu_Devin_Exo2 l'utilisateur répond d'abord trop
+grand puis toujours trop petit ?
+--------------------------------------------------------------------------------
+
+Réponse : Le programme va proposer des nombres plus petit que 500 jusqu'à proposer à la fin 499, si l'utilisateur continue à dire que le nombre est trop
+petit, le programme découvrira la triche.
+
+
+--------------------------------------------------------------------------------
+C2. Est-on sûr que Jeu_Devin_Exo1 se termine ?  Quel argument peut-on donner ?
+--------------------------------------------------------------------------------
+
+Réponse : Non, il se peut que Jeu_Devin_Exo1 ne se termine pas, si l’utilisateur propose uniquement des nombres déjà proposés. Si l’utilisateur propose à chaque tour un nouveau nombre entre 1 et 999, le jeu est sûr de se terminer.
+
+
+--------------------------------------------------------------------------------
+C3. Est-on sûr que Jeu_Devin_Exo2 se termine ?  Quel argument peut-on donner ?
+--------------------------------------------------------------------------------
+
+Réponse : Il est certain que le programme se termine, l'intervalle de recherche est un variant de boucle, en effet
+Borne_max - Borne_min est une variable strictement décroissante et si elle vaut 1, le programme prends forcément fin.
+
+
+--------------------------------------------------------------------------------
+F1. Les noms Jeu_Devin_Exo1, Jeu_Devin_Exo2 et Jeu_Devin_Exo3 ne sont pas très
+parlants.  Par quoi pourrait-on les remplacer ?
+--------------------------------------------------------------------------------
+
+Réponse : Jeu_Devin_Exo1 --> Jeu du devin: Utilisateur devin
+      	Jeu_Devin_Exo2 --> Jeu du devin : Ordinateur devin
+      Jeu_Devin_Exo3 --> Jeu du devin: rôle du devin au choix.
+
+
+--------------------------------------------------------------------------------
+E1. Quelles sont les modifications à apporter à votre programme pour chercher
+des nombres compris entre 1 et 9999 ?
+--------------------------------------------------------------------------------
+
+Réponse : Changer la valeur des variables qui définissent la borne max des nombres que l'on peut faire deviner/que l'on doit deviner.
+
+
+
+--------------------------------------------------------------------------------
+E2. Quelles sont les modifications à apporter pour que que l'utilisateur
+puisse utiliser aussi les caractères <, > et = pour indiquer si le nombre
+proposé est trop petit, trop grand ou le bon ?
+--------------------------------------------------------------------------------
+
+

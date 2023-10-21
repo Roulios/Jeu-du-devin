@@ -1,0 +1,77 @@
+V "GNAT Lib v12"
+M P W=b
+A -gnatwa
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+
+U jeu_devin_exo3%b	jeu_devin_exo3.adb	8383ec50 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W jeu_devin_exo1%b	jeu_devin_exo1.adb	jeu_devin_exo1.ali
+W jeu_devin_exo2%b	jeu_devin_exo2.adb	jeu_devin_exo2.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20230508121439 76789da1 ada%s
+D a-except.ads		20230508121439 2a7d8d70 ada.exceptions%s
+D a-inteio.ads		20230508121439 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20230508121439 40018c65 ada.io_exceptions%s
+D a-stream.ads		20230508121439 119b8fb3 ada.streams%s
+D a-string.ads		20230508121439 90ac6797 ada.strings%s
+D a-sttebu.ads		20230508121439 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20230508121439 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20230508121439 9eaa38c6 ada.tags%s
+D a-textio.ads		20230508121439 deada98a ada.text_io%s
+D a-tiinio.ads		20230508121439 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20230508121439 0e9b276f ada.unchecked_conversion%s
+D alea.ads		20231009085401 9fe1c6b1 alea%s
+D interfac.ads		20230508121439 edec285f interfaces%s
+D i-cstrea.ads		20230508121439 e53d8b8e interfaces.c_streams%s
+D jeu_devin_exo1.adb	20231009085939 87e7d0da jeu_devin_exo1%b
+D jeu_devin_exo2.adb	20231009090511 34f6824d jeu_devin_exo2%b
+D jeu_devin_exo3.adb	20231009091050 e76bfffb jeu_devin_exo3%b
+D system.ads		20230508121439 a2da961d system%s
+D s-crtl.ads		20230508121439 8a0692f8 system.crtl%s
+D s-exctab.ads		20230508121439 91bef6ef system.exception_table%s
+D s-ficobl.ads		20230508121439 dc5161d4 system.file_control_block%s
+D s-parame.ads		20230508121439 d494a4a6 system.parameters%s
+D s-putima.ads		20230508121439 4e095881 system.put_images%s
+D s-secsta.ads		20230508121439 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20230508121439 df77073e system.soft_links%s
+D s-stache.ads		20230508121439 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20230508121439 1c9580f6 system.standard_library%s
+D s-stoele.ads		20230508121439 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20230508121439 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20230508121439 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20230508121439 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20230508121439 d9032363 system.wch_con%s
+D text_io.ads		20230508121439 21b2c898 text_io%s
+D unchconv.ads		20230508121439 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [jeu_devin_exo3 standard 7 11 none]
+G r c none [jeu_devin_exo3 standard 7 11 none] [jeu_devin_exo1 standard 8 11 none]
+G r c none [jeu_devin_exo3 standard 7 11 none] [jeu_devin_exo2 standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|2r6 2r32
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 18|2w10 2r36
+X 10 a-textio.ads
+263U14*New_Line 18|12s17 14s17 16s17
+464U14*Put 18|11s17 13s17 15s17 26s25
+X 11 a-tiinio.ads
+59U14*Get 18|27s25[3|18]
+X 16 jeu_devin_exo1.adb
+8U11*Jeu_Devin_Exo1 18|3w6 32s35
+X 17 jeu_devin_exo2.adb
+4U11*jeu_devin_exo2 18|4w6 33s35
+X 18 jeu_devin_exo3.adb
+7U11*Jeu_Devin_Exo3 7b11 37l5 37t19
+9U19 afficher_modes_jeu 9b19 17l13 17t31 25s25
+20b9 programme_ouvert{boolean} 23r15 31m35
+21i9 mode_jeu{integer} 27m29 28r27 28r43 28r59 30r22
+X 34 text_io.ads
+24K9*Text_IO=24:29 18|1w6 1r29
+
